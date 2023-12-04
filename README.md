@@ -25,3 +25,5 @@ To use:
 7. You can change the keys in the code using the constants at the top
 
 When driving, if you have the dashboard plugin, the input display will flicker between KB and analog steering. I am not sure how to fix this. Binding controller buttons as inputs was not possible when I tried this. I just drove without looking at the dashboard.
+
+Here is a comparison video using this tool + same track on controller: https://www.youtube.com/watch?v=HM0la9-Z4vY 
