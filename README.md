@@ -22,7 +22,8 @@ To use:
 4. Run `python steer.py`
 5. You can verify it's working by the Windows device connected sound and testing it here: https://hardwaretester.com/gamepad
 6. Make sure you unbind left, right, `d`, and `f` from your Trackmania settings. If you change the keys make sure you unbind those instead
-7. You can change the keys in the code using the constants at the top
+   - Unbind BEFORE you start the script, otherwise it will unbind the virtual controller and not the keyboard
+8. You can change the keys in the code using the constants at the top
 
 When driving, if you have the dashboard plugin, the input display will flicker between KB and analog steering. I am not sure how to fix this. Binding controller buttons as inputs was not possible when I tried this. I just drove without looking at the dashboard.
 
