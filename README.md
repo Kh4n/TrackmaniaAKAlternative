@@ -5,7 +5,7 @@
 I created this as a test for an idea I had as an alternative to action keys. It works like this:
 1. Press and hold the activation key (default `d`)
 2. While holding, tap/press left/right to start steering
-    - Instead of your steering input being fixed, it will gradually increase from 15% - 100%. Exact rate is 4% / 120th of a second, and decays over 0.2 seconds to 1.5% / 120th of a second
+    - Instead of your steering input being fixed, it will gradually increase from 15% - 100%. Exact rate is 2% / 120th of a second, and decays over 0.2 seconds to .75% / 120th of a second
 3. Your steering is held as long as you hold the activation key. You can adjust it by pressing left/right
 4. Once you release the activation key, it works just like an action key would: your steering is locked to whatever percentage you built it up to while holding
 5. Pressing the reset key (default `f`) will bring you back to 100% steering
