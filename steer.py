@@ -52,8 +52,8 @@ class KbSteer:
             if key == RIGHT:
                 self.rightPressed = False
 
-    speed = 0.04
-    maxSpeedDecay = 0.025
+    speed = 0.02
+    maxSpeedDecay = 0.0125
     decayTime = 0.2
     decayStart = time.perf_counter()
     steerSave = steer
