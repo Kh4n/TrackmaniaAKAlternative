@@ -9,7 +9,7 @@ RIGHT = Key.right
 GAMEPAD_ATTEMPTS = 5
 
 MAX_JOY = 32768
-FPS = 120
+FPS = 240
 TARGET = 1/FPS
 
 def clip(v, l, h):
@@ -52,8 +52,8 @@ class KbSteer:
             if key == RIGHT:
                 self.rightPressed = False
 
-    speed = 0.04
-    maxSpeedDecay = 0.025
+    speed = 0.01
+    maxSpeedDecay = 0.00625
     decayTime = 0.2
     decayStart = time.perf_counter()
     steerSave = steer
